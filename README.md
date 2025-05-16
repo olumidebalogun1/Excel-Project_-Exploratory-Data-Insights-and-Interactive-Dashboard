@@ -18,7 +18,7 @@ What sets this project apart is its automation, interactivity, and visual clarit
 In short, this Excel-powered solution transforms business data into a strategic advantage, because when you know what’s happening in your business, you can shape what happens next.
 
 # **Goal of the Project**
-The goal of this project is to deliver a **robust, Excel-powered solution** that combines **Exploratory Data Analysis (EDA) ** with a **visually engaging, automated 2-in-1 interactive dashboard**, designed to transform scattered sales and profitability data into a clear, actionable roadmap for growth.
+The goal of this project is to deliver a **robust, Excel-powered solution** that combines **Exploratory Data Analysis (EDA)** with a **visually engaging, automated 2-in-1 interactive dashboard**, designed to transform scattered sales and profitability data into a clear, actionable roadmap for growth.
 
 This project aims to:
 
@@ -46,15 +46,12 @@ The following Excel skills were utilized for the analysis:
 **5. Data Validation** – For ensuring data accuracy and consistency
 
 
-# **Dataset Overview**
-The dataset used for this project is a fictional yet realistic supply chain dataset covering 2021 to 2024.
+# **Dataset Structure Overview**
+The dataset used for this project is a fictional yet realistic supply chain dataset covering the period from 2021 to 2024. It consists of four structured tables: **Products**, **Customers**, **Locations**, and **Transactions**, with a total of **204,027** records.
+
+![Data Structure Overview](https://github.com/user-attachments/assets/4fcc5144-59be-4ad7-b34b-7345deb8c7a9)
 
 🔗 Access the dataset here: [Raw Dataset](https://github.com/olumidebalogun1/Excel-Project-Sales-and-Profitability-Analysis-with-Interactive-Dashboard/tree/main/1.%20Raw%20Dataset)
-It includes detailed information on:
-- **Products**
-- **Customers**
-- **Locations**
-- **Transactions**
 
 
 # **Exploratory Data Analysis (EDA)**
