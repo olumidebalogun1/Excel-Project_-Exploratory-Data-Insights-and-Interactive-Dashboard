@@ -1,23 +1,40 @@
-# **📊 Excel Project: Sales & Profitability Analysis with Exploratory Data Insights and Interactive Dashboard**
+# Excel Project: Sales & Profitability Analysis with Exploratory Data Insights and Interactive Dashboard
+<br>
 
-# **Overview**
-This Excel project goes beyond spreadsheets and charts, it's a full-blown data storytelling experience. By fusing **Exploratory Data Analysis (EDA)** with a **dynamic, automated 2-in-1 interactive dashboard**, this solution turns raw data into sharp insights that drive real business impact.
-At its core, the project dives deep into sales and profitability metrics to uncover trends, highlight performance shifts, and decode customer behaviors. But it doesn’t stop there, it packages these insights into a sleek, easy-to-navigate dashboard designed for real-time decision-making.
+![4 1  Dashboard - Sales 1](https://github.com/user-attachments/assets/8248be0a-6310-44d9-8372-c2cdb51e7a9e)
 
-With this tool in hand, stakeholders can:
+<br>
 
-- **Spot opportunities** and forecast growth with trend-driven analytics
+## Project Background
+This project isn’t just an Excel workbook, it’s a **strategic intelligence engine** built to turn raw sales data into business gold. Powered by **Exploratory Data Analysis (EDA)** and enhanced with a **2-in-1 automated, interactive dashboard, it transforms complex supply chain datasets into crystal-clear, actionable insights for the leadership team of **Chris & Danielle Supply Chain**.
 
--	**Enhance customer engagement** by tapping into behavioral insights
+At the heart of the project lies a deep-dive into sales trends, profitability performance, customer behavior, and regional dynamics from 2021 to 2024. But the real power is in how the findings are packaged, **visually compelling, real-time dashboards** that put the most important KPIs at stakeholders’ fingertips.
 
--	**Plan strategically** using data-backed foresight
+With this solution, decision-makers can:
 
--	**Mitigate risks proactively**, thanks to early warning signals baked into the dashboard
+-	**Spot trends and forecast growth** using seasonality and product-level insights
 
-What sets this project apart is its automation, interactivity, and visual clarity. No more scrolling through endless reports—this dashboard delivers instant, meaningful insights at a glance. It's built for leaders who want to stop guessing and start acting.
-In short, this Excel-powered solution transforms business data into a strategic advantage, because when you know what’s happening in your business, you can shape what happens next.
+-	**Enhance customer strategies** with data-driven segmentation and behavior analysis
 
-# **Goal of the Project**
+-	**Plan smarter** with deep visibility into cost structures and margin performance
+
+-	**Proactively mitigate risks** through early-warning signals embedded in the dashboard
+
+What makes this project a standout:
+
+-	**Automation-first approach** using Power Query for seamless ETL
+
+-	**Relational data modelling** across fact and dimension tables for robust analysis
+
+-	**Interactive dashboards** for instant insight without report overload
+
+-	 **Real business impact**, driving clarity, confidence, and smarter decisions
+  
+This Excel-powered solution bridges the gap between data and strategy, designed for business leaders who don’t just want to see the numbers, but are ready to act on them.
+
+<br>
+
+## Goal of the Project
 The goal of this project is to deliver a **robust, Excel-powered solution** that combines **Exploratory Data Analysis (EDA)** with a **visually engaging, automated 2-in-1 interactive dashboard**, designed to transform scattered sales and profitability data into a clear, actionable roadmap for growth.
 
 This project aims to:
@@ -32,7 +49,76 @@ This project aims to:
 
 In short, the goal is to move the business from **gut-based guesses to insight-driven strategies**, turning everyday data into a powerful competitive advantage.
 
-# **Excel Skills Used**
+<br>
+
+## Business Challenge
+Between 2021 and 2024, the company experienced robust sales volumes driven by strong demand across regions and customer segments. Yet, the bottom line told a different story, **profit margins were stuck at a lean 4**%. Despite crossing half a billion dollars in sales, the company was leaving serious money on the table.
+
+**The Real Problem**:
+
+Sales growth was not translating into sustainable profitability. Several pain points were evident:
+
+-	**High-revenue months** didn’t always align with **high-profit periods**.
+
+-	**Best-selling product lines** had **moderate-to-low margins**, indicating cost inefficiencies.
+
+-	**Over-reliance on one major customer** created revenue concentration risks.
+
+-	**Geographic underperformance** in key states was dragging down overall margins.
+
+-	**Customer segments with low sales volume were surprisingly more efficient** than their high-volume counterparts.
+  
+**My Mission**:
+As a data analyst, I set out to diagnose these contradictions, uncover the root causes, and build a clear roadmap from “**data chao**s” to “**data clarity**.”
+
+<br>
+
+## Key Business Questions
+#### 1. What are the overall performance metrics?
+-	Total Sales Revenue?
+
+-	Total Profit?
+
+-	Total Sales Quantity?
+
+-	Profit Margin?
+
+#### 2. Are there clear upward or downward trends in sales and profit?
+-	How do these trends vary over months or years?
+
+-	Which months contribute most to revenue vs. profit?
+  
+#### 3. Which product types are driving profitability?
+-	Which product category has the highest profit margin?
+
+-	Which products generate the most revenue but have low margins?
+
+#### 4. How do different customer types impact sales and profit?
+-	Which customer segments are the most profitable?
+
+-	How do Brick & Mortar, Click-and-Mortar, and E-Commerce compare in efficiency?
+
+#### 5. What is the sales and profit performance by individual customers?
+-	Who are the high-value customers?
+
+-	Are there customers with high sales but low or negative profit?
+
+#### 6. How do sales and profits vary across different regions/states?
+-	Which states generate the highest and lowest sales/profit?
+
+-	Are there underperforming or unprofitable regions?
+<br>
+
+## **Dataset Structure Overview**
+The dataset used for this project is sourced from the **Chris & Danielle Supply Chain** dataset, covering the period from **2021 to 2024**. It comprises four well-structured tables: **Products**, **Customers**, **Locations**, and **Transactions**, with a total of **204,027 records**, offering rich insights for in-depth analysis.
+<br>
+
+![Data Structure Overview](https://github.com/user-attachments/assets/4fcc5144-59be-4ad7-b34b-7345deb8c7a9)
+
+### 🔗 Access the Raw Dataset: [Click here](https://github.com/olumidebalogun1/Excel-Project-Sales-and-Profitability-Analysis-with-Interactive-Dashboard/tree/main/1.%20Raw%20Dataset)
+<br>
+
+## **Excel Skills Used**
 The following Excel skills were utilized for the analysis:
 
 **1. Formulas & Functions** – For data calculations and transformations
@@ -45,13 +131,101 @@ The following Excel skills were utilized for the analysis:
 
 **5. Data Validation** – For ensuring data accuracy and consistency
 
+<br><br>
 
-# **Dataset Structure Overview**
-The dataset used for this project is a fictional yet realistic supply chain dataset covering the period from 2021 to 2024. It consists of four structured tables: **Products**, **Customers**, **Locations**, and **Transactions**, with a total of **204,027** records.
+# The Analysis
 
-![Data Structure Overview](https://github.com/user-attachments/assets/4fcc5144-59be-4ad7-b34b-7345deb8c7a9)
+---
 
-🔗 Access the dataset here: [Raw Dataset](https://github.com/olumidebalogun1/Excel-Project-Sales-and-Profitability-Analysis-with-Interactive-Dashboard/tree/main/1.%20Raw%20Dataset)
+# Executive Summary: Exploratory Data Analysis of Sales Performance (2021–2024)
+## Overview
+This analysis leverages a multi-dimensional supply chain dataset (2021–2024) to uncover actionable insights across sales performance, customer behavior, product profitability, and regional dynamics. The objective is to turn complex data into a clear decision-making compass—enhancing revenue growth, improving operational efficiency, and increasing profitability.
+
+<br>
+
+## Key Findings
+#### 1. Profitability Lag Despite High Sales:
+-	While sales exceeded **$541 million**, overall **profit margin was just 4%**, signaling high operational costs or pricing inefficiencies.
+
+#### 2. Seasonal Performance Gaps: 
+-	Sales peaked in **November, December, and January**, but **profitability dipped in April–June**, indicating misaligned pricing or increased expenses.
+
+#### 3. Top Products vs. Top Margins: 
+-	Own Brand products delivered the highest revenue but not the best margins. **Wholesale Goods** had the best margin (5%) but lower volume, suggesting an optimization opportunity.
+
+#### 4. Customer Mix Insights:
+-	**Brick & Mortar** drives 67% of sales but at higher costs.
+  
+-	**E-Commerce** delivers the **highest margin efficiency** (12.5% of profit with only 10.8% of sales).
+
+-	Heavy revenue dependency on **one customer (Prime Stop**) poses a risk (44.8% of profits).
+
+#### 5. Geographic Disparity:
+-	**Florida, California, and Delaware** dominate sales and profits.
+
+-	**Georgia and Iowa** incur losses.
+
+-	**Smaller markets like South Dakota** offer high profit margins with modest sales—ideal for expansion.
+
+<br>
+
+## Strategic Recommendations
+#### 1.  Optimize Pricing & Costs: 
+
+-	Improve margin by refining Own Brand pricing and reducing production/operational costs, especially in low-profit months.
+
+#### 2.  Revenue Diversification:
+
+-	Invest in mid-tier and high-potential customers (e.g., Nixon Hub, Speak Mart).
+
+-	Reduce dependency on Prime Stop with new account acquisition.
+
+#### 3.  Geographic Strategy:
+
+-	Double down on Florida, Delaware, and California.
+
+-	Reassess viability in unprofitable states (e.g., Iowa).
+
+-	Expand in under-utilized but profitable zones (e.g., South Dakota, Kentucky).
+
+#### 4.  Channel Optimization:
+
+-	Scale **Click-and-Mortar and E-Commerce**, given their superior cost efficiency and profit contributions.
+
+#### 5.  Data-Driven Decision-Making:
+
+-	Use the interactive dashboard to monitor KPIs, customer segments, and product trends in real time.
+
+-	Automate workflows for ongoing efficiency and insight delivery.
+
+<br>
+
+## The Solution – Data-Driven Optimization
+Using Power Query, Pivot Tables, and dynamic Excel dashboards, I:
+
+- Unified and cleansed multi-source datasets (sales, customer, product, geography).
+
+- Analyzed seasonality, pricing impact, and customer behavior trends.
+
+- Identified top-performing regions, profitable customer types, and high-margin product lines.
+
+- Pinpointed costly inefficiencies and developed actionable strategies to correct them.
+
+<br>
+
+## Business Impact
+The insights translated directly into opportunity:
+
+-	Potential **+6% to +12% profit boost** through better pricing and cost control.
+
+-	**10–18% revenue upside** by leveraging seasonal trends and expanding into efficient customer channels.
+
+-	**Risk reduction** through revenue diversification and geographic optimization.
+
+-	Clear playbook for **channel growth, customer segmentation**, and **regional investment**.
+
+
+---
 
 
 # **Exploratory Data Analysis (EDA)**
@@ -83,46 +257,11 @@ By harnessing the power of data, the company can:
   
 This analysis goes beyond just numbers, it provides a data-backed roadmap for smarter business decisions, increased efficiency, and sustainable profitability.
 
-
-## **Key Business Questions**
-To assess the sales and profitability performance of the supply chain company, I aimed to answer the following questions:
-
-**1. Key Performance Indicators (KPIs)**
-
-- **What are the overall**:
-  
-a. Total sales revenue?
-
-b. Total profit?
-
-c. Total sales quantity?
-
-d. Profit margin?
-
-**2. Sales and Profit Trends**
-
-- **Are there clear upward or downward sales and profit performance trends over time**?
-  
-**3. Product Performance**
-
-- **Which product type recorded the highest profit margin**?
-
-**4. Customer Insights**
-
-- **How do sales and profit performance vary across different customer types**?
-
-- **How do sales and profit performance vary across individual customers**?
-
-**5. Geographical Performance**
-
-- **How do sales and profit performance vary across different states**?
-
-
 ## **Skills Demonstrated**
 
 ### **1. Power Query (ETL) – Extract, Transform, and Load**
 
-**1️ Extract**:
+**I.  Extract**:
 
 Leveraged Power Query to import and extract raw datasets, including:
 
@@ -130,11 +269,17 @@ Leveraged Power Query to import and extract raw datasets, including:
 
 - **Dimension datasets**: Sales_Products, Sales_Customers, and Sales_Locations.
 
+<br>
+
 ![1 1 Loaded](https://github.com/user-attachments/assets/db7591db-98ab-4bd2-80d2-434b5b558607)
+
+<br>
 
 ![1 2 Loaded](https://github.com/user-attachments/assets/577fc642-e67c-4621-b291-5aa5dd7fd1df)
 
-**2️ Transform**:
+<br>
+
+**II.  Transform**:
 
 - Integrated the fact and dimension datasets to create a relational data model
 
@@ -142,16 +287,25 @@ Leveraged Power Query to import and extract raw datasets, including:
 
 - Applied data shaping techniques to streamline analysis and enhance data quality
 
+<br>
+
 ![1 3 Merged](https://github.com/user-attachments/assets/392f2f13-fa71-4b58-8a0a-2eb3079dfaca)
+
+<br>
 
 ![1 4 Merged](https://github.com/user-attachments/assets/bd72b141-0dcd-4e59-93b7-18de93b6680d)
 
-**3️ Load**:
+<br>
+
+**III.   Load**:
 
 - Loaded the fully transformed and structured dataset into the workbook, setting a strong analytical foundation for deeper insights and visualization
-  
+
+   <br>
+
 ![1 6 Loading Transformed Dataset to Pivot Table](https://github.com/user-attachments/assets/74f44b49-469c-44a2-b9bd-67e256037e3c)
 
+<br>
 
 ### **2. Pivot Tables – Seamless Data Analysis**
 
@@ -163,14 +317,20 @@ Leveraging Pivot Tables, I conducted a dynamic and efficient analysis, enabling:
 
 - Real-time filtering & grouping to uncover trends and patterns
 
+<br>
+
 ![2 2  Pivot table - Analysis](https://github.com/user-attachments/assets/565c6142-32b1-47b6-b2e6-4986f78354e8)
 
-**Pivot Tables for this project**? Check them out here: [Analysis](https://github.com/olumidebalogun1/Excel-Project-Sales-and-Profitability-Analysis-with-Interactive-Dashboard/blob/main/5.%20Analysis%20and%20Dashboard/1.%20Analysis.xlsx)
+<br>
 
+### 🔗 Explore the Pivot Tables used for this project [here.](https://github.com/olumidebalogun1/Excel-Project-Sales-and-Profitability-Analysis-with-Interactive-Dashboard/blob/main/5.%20Analysis%20and%20Dashboard/1.%20Analysis.xlsx)
+
+ <br>
  
-# **1. Key Performance Indicators (KPIs)** - 
+# **1. Key Performance Indicators (KPIs)** 
 
-## **What are the overall**:
+## Business Question
+What are the overall:
 
 **1. Total sales revenue?**
 
@@ -180,249 +340,257 @@ Leveraging Pivot Tables, I conducted a dynamic and efficient analysis, enabling:
 
 **4. Profit margin?**
 
-### **Purpose**: 
-To assess overall business performance and financial health.
-
-- **Total Sales Revenue**: Measures the total income generated from sales.
-
-- **Total Profit**: Determines overall business profitability after deducting costs.
-
-- **Total Sales Quantity**: Tracks the volume of products sold.
-
-- **Profit Margin**: Evaluates how efficiently the business converts sales into profit.
-
-### **Why It Matters**: 
-These KPIs help set benchmarks, identify growth trends, and evaluate financial success.
+<br>
 
 ![1  KPI's](https://github.com/user-attachments/assets/b90b057b-fcdb-4646-a16b-7ced1cdede83)
 
-### **Visualizations**
+<br>
+
 ![2  KPI's](https://github.com/user-attachments/assets/0897f44b-42f2-49ea-8966-1e339e74cd55)
 
-### **Key Insights**
-1. Low Profit Margin **(4%)** suggests that while revenue is high, profitability is relatively low.
+<br>
 
-2. A large sales volume indicates strong market demand, but costs may be eating into profit.
+## **Key Insights**
+-	 Low Profit Margin **(4%)** suggests that while revenue is high, profitability is relatively low.
 
-3. Efficient pricing, cost management, and product mix optimization are crucial for improved margins.
+-	A large sales volume indicates strong market demand, but costs may be eating into profit.
 
-### **Strategic Recommendations**
-1. Review pricing strategies to improve margins while maintaining competitiveness.
+-	Efficient pricing, cost management, and product mix optimization are crucial for improved margins.
 
-2. Reduce operational & production costs through supplier negotiations, lean processes, or automation.
+## **Strategic Recommendations**
+-	Review pricing strategies to improve margins while maintaining competitiveness.
 
-3. Identify high-profit products and prioritize them in promotions and sales strategies.
+-	Reduce operational & production costs through supplier negotiations, lean processes, or automation.
 
-4. Upsell and cross-sell higher-margin products to boost overall profitability.
+-	Identify high-profit products and prioritize them in promotions and sales strategies.
+
+-	Upsell and cross-sell higher-margin products to boost overall profitability.
    
-**A small increase in profit margin can lead to significant financial gains.**
+A small increase in profit margin can lead to significant financial gains.
 
+<br><br>
 
-# **2. Sales and Profit Trends** -
+# **2. Sales and Profit Trends**
 
-## **Are there clear upward or downward trends in sales and profit?**
+## Business Question
+Are there clear upward or downward trends in sales and profit?
 
-### **Purpose**:
-To analyze performance over time and identify trends, determining whether the business is growing, declining, or fluctuating.
-
-### **Why It Matters**: 
-Understanding trends allows businesses to forecast future performance, adjust strategies, and optimize decision-making.
+<br>
 
 ![2  Monthly Type](https://github.com/user-attachments/assets/745ff3c5-9dca-4975-9153-f6d7ea661d51)
 
-### **Visualizations**
+<br>
+
 ![3  Sales   Profit Monthly Trend](https://github.com/user-attachments/assets/511bf815-3709-46c4-9acf-ca27b48eaf00)
 
-### **Key Insights**
-1. Sales fluctuate throughout the year, with **November, December, January, and September** showing the highest sales, while **March and April** record the lowest.
+<br>
 
-2. Profit peaks in **September, January, and February**, but dips in **April and May**, indicating seasonal variations.
+## **Key Insights**
+-	Sales fluctuate throughout the year, with **November, December, January, and September** showing the highest sales, while **March and April** record the lowest.
 
-3. High sales months do not always align with high profit, suggesting cost and pricing variations.
+-	Profit peaks in **September, January, and February**, but dips in **April and May**, indicating seasonal variations.
 
-### **Strategic Recommendations**
-1.  Maximize Peak Sales **(Nov–Jan, Sept–Oct)** with better inventory and marketing.
+-	High sales months do not always align with high profit, suggesting cost and pricing variations.
 
-2. Investigate Low-Profit Months **(Apr, May, Jun**) to optimize costs.
+## **Strategic Recommendations**
+-	Maximize Peak Sales **(Nov–Jan, Sept–Oct)** with better inventory and marketing.
 
-3. Align Pricing and Expense Management in high-sales, low-profit periods.
+-	Investigate Low-Profit Months **(Apr, May, Jun**) to optimize costs.
 
-4.  Introduce Promotions in Low-Sales Months to drive demand.
+-	Align Pricing and Expense Management in high-sales, low-profit periods.
 
-**Strategic seasonal adjustments will improve both sales and profitability.**
+-	Introduce Promotions in Low-Sales Months to drive demand.
 
+Strategic seasonal adjustments will improve both sales and profitability.
 
-# **3. Product Performance** -
+<br><br>
 
-## **Which product type recorded the highest profit margin?**
+# **3. Product Performance**
 
-### **Purpose**: 
-To identify both high-performing and underperforming products. This helps uncover the most profitable items, guiding pricing strategy, marketing focus, and inventory management.
+## Business Question
+Which product type recorded the highest profit margin?
 
-### **Why It Matters**: 
-Businesses can prioritize best-selling products and phase out low-performing ones to improve profitability.
+<br>
 
 ![4  Product Type](https://github.com/user-attachments/assets/3a380582-0eb1-4a70-b907-8a7a55946caf)
 
-### **Visualizations**
+<br>
+
 ![4  Profit Margin by Product Type](https://github.com/user-attachments/assets/250ca120-d460-4c00-90c0-165d2c02c8b5)
 
-### **Key Insights**
-1. Wholesale Goods has the **highest profit margin (5%)**, making it the most cost-efficient product type.
+<br>
 
-2. Own Brand leads in **total sales ($549.83M) and profit ($21.4M)** but has a **moderate profit margin (4%)**, indicating potential cost challenges.
+## **Key Insights**
+-	Wholesale Goods has the **highest profit margin (5%)**, making it the most cost-efficient product type.
 
-3. Licensed Products have the **lowest profit margin (2%)**, signaling inefficiencies or pricing issues.
+-	Own Brand leads in **total sales ($549.83M) and profit ($21.4M)** but has a **moderate profit margin (4%)**, indicating potential cost challenges.
 
-### **Strategic Recommendations**
-1. Expand Wholesale Goods due to its high profitability.
+-	Licensed Products have the **lowest profit margin (2%)**, signaling inefficiencies or pricing issues.
 
-2. Optimize Own Brand costs to improve margins.
+## **Strategic Recommendations**
+-	Expand Wholesale Goods due to its high profitability.
 
-3. Streamline Custom-Made and Third-Party Brand operations to reduce costs.
+-	Optimize Own Brand costs to improve margins.
 
-4. Review Licensed Products' viability and adjust pricing or discontinue if necessary.
+-	Streamline Custom-Made and Third-Party Brand operations to reduce costs.
 
-5. Use data-driven pricing strategies to maximize profit across product types.
+-	Review Licensed Products' viability and adjust pricing or discontinue if necessary.
 
-**Focusing on cost efficiency and margin optimization will drive sustainable profitability.**
+-	Use data-driven pricing strategies to maximize profit across product types.
 
+Focusing on cost efficiency and margin optimization will drive sustainable profitability.
 
-# **4. Customer Insights** -
+<br><br>
 
-## **How do sales and profit performance vary across different customer types?**
+# **4. Customer Insights**
 
-### **Purpose**: 
-To understand customer behavior and purchasing patterns. This analysis helps identify which group generates higher profitability.
+## Business Question
+How do sales and profit performance vary across different customer types?
 
-### **Why It Matters**:
-These insights help tailor marketing strategies, improve customer retention, and optimize pricing for different customer groups.
+<br>
 
 ![3  Customer Type](https://github.com/user-attachments/assets/344db219-758c-4562-916b-5c7dc3cbc4ec)
 
-### **Visualizations**
+<br>
+
 ![5  Sales   Profit by Customer Type](https://github.com/user-attachments/assets/f416f7d7-e441-4ad0-86c1-498076577de8)
 
-### **Key Insights**
-1. Brick & Mortar leads in **sales (67.4%) and profit (64.41%)** but has **lower profit efficiency** due to higher costs.
+<br>
 
-2. Click-and-Mortar has a strong balance **(21.8% sales, 23.1% profit)**, showing **better profitability per dollar** of sales.
+## **Key Insights**
+-	Brick & Mortar leads in **sales (67.4%) and profit (64.41%)** but has **lower profit efficiency** due to higher costs.
 
-3. E-Commerce, though smallest in **sales (10.8%)**, has the highest efficiency **(12.5% profit share)**, indicating **lower costs and better margins.**
+-	Click-and-Mortar has a strong balance **(21.8% sales, 23.1% profit)**, showing **better profitability per dollar** of sales.
 
-### **Strategic Recommendations**
-1.**Optimize Brick & Mortar Costs** – Reduce overhead and improve pricing strategies.
+-	E-Commerce, though smallest in **sales (10.8%)**, has the highest efficiency **(12.5% profit share)**, indicating **lower costs and better margins.**
 
-2. **Expand Click-and-Mortar** – Strengthen omnichannel strategies for sustained growth.
+## **Strategic Recommendations**
+-	**Optimize Brick & Mortar Costs** – Reduce overhead and improve pricing strategies.
 
-3. **Accelerate E-Commerce** – Invest in digital marketing and logistics to scale profitability.
+-	**Expand Click-and-Mortar** – Strengthen omnichannel strategies for sustained growth.
 
-4. **Use Data to Drive Strategy** – Personalize promotions and refine segment pricing.
+-	**Accelerate E-Commerce** – Invest in digital marketing and logistics to scale profitability.
 
-**The company can boost overall profitability and long-term growth by enhancing efficiency, expanding digital channels, and optimizing costs.** 
+-	**Use Data to Drive Strategy** – Personalize promotions and refine segment pricing.
 
+The company can boost overall profitability and long-term growth by enhancing efficiency, expanding digital channels, and optimizing costs. 
 
-# **5. Customer Insights** - 
+<br><br>
 
-## **How do sales and profit performance vary across individual customers?**
+# **5. Customer Insights**  
 
-### **Purpose**: 
-To analyze customer behavior and purchasing patterns, identifying both high-value customers and those with declining purchases.
+## Business Question
+How do sales and profit performance vary across individual customers?
 
-### **Why It Matters**: 
-These insights help tailor marketing strategies, improve customer retention, and optimize pricing for different customer groups.
+<br>
 
 ![5  Customers](https://github.com/user-attachments/assets/fc1d86f3-0fd4-40b1-a902-c02301d11cb0)
 
-### **Visualizations**
+<br>
+
 ![6  Sales   Profit by Customers](https://github.com/user-attachments/assets/d39c64c4-0781-40cd-8f57-ee06e1a1f148)
 
-### **Key Insights**
-1. Prime Stop dominates **sales ($541.27M) and profit ($22.57M, 44.79%)**, creating a revenue dependency risk.
+<br>
 
-2. Mid-tier customers **(Speak Mart, Nixon Hub, Excel Stores, etc.)** have strong growth potential and should be prioritized for expansion.
+## **Key Insights**
+-	Prime Stop dominates **sales ($541.27M) and profit ($22.57M, 44.79%)**, creating a revenue dependency risk.
 
-3. Low-performing and loss-making customers **(e.g., S & B Plaza, Expression Supply)** require strategic review to improve profitability or phase out inefficiencies.
+-	Mid-tier customers **(Speak Mart, Nixon Hub, Excel Stores, etc.)** have strong growth potential and should be prioritized for expansion.
 
-### **Strategic Recommendations**
-1. Diversify revenue streams to reduce dependency on Prime Stop.
+-	Low-performing and loss-making customers **(e.g., S & B Plaza, Expression Supply)** require strategic review to improve profitability or phase out inefficiencies.
 
-2. Optimize pricing and cost structure for high-sales, low-profit customers.
+## **Strategic Recommendations**
+-	Diversify revenue streams to reduce dependency on Prime Stop.
 
-3. Expand high-potential mid-tier accounts through targeted incentives.
+-	Optimize pricing and cost structure for high-sales, low-profit customers.
 
-4. Address unprofitable customers by reviewing pricing, demand, and cost efficiency.
+-	Expand high-potential mid-tier accounts through targeted incentives.
 
-5. Use data-driven insights to improve forecasting and customer segmentation.
+-	Address unprofitable customers by reviewing pricing, demand, and cost efficiency.
 
-**Focusing on diversification, pricing strategies, and data-driven decision-making will enhance profitability and business sustainability.**
+-	Use data-driven insights to improve forecasting and customer segmentation.
 
+Focusing on diversification, pricing strategies, and data-driven decision-making will enhance profitability and business sustainability.
 
-# **6. Geographical Performance** -
+<br><br>
 
-## **How do sales and profit performance vary across different states?**
+# **6. Geographical Performance** 
 
-### **Purpose**:
-To analyze how location influences sales and profitability by identifying regions with high and low sales performance. This insight helps drive location-based marketing and expansion strategies.
+## Business Question
+How do sales and profit performance vary across different states?
 
-### **Why It Matters**: 
-It helps businesses allocate resources efficiently, focus on high-performing areas, and improve operations in underperforming regions.
+<br>
 
 ![6  States](https://github.com/user-attachments/assets/d42ea0f3-df1e-41e5-aecc-f9abb0072186)
 
-### **Visualizations**
+<br>
+
 ![7a  Sales by States](https://github.com/user-attachments/assets/ea0f4426-844e-47e1-bfcc-2cf783557785)
+
+<br>
 
 ![7b  Profit by States](https://github.com/user-attachments/assets/cec32918-f214-43d7-af87-04014da08c8c)
 
-### **Key Insights**
-1. Florida leads in both **total sales ($684.63M) and profit ($27.38M)**, making it the strongest market.
+<br>
 
-2. California **($198.94M sales, $9.91M profit)** and Delaware **($180.89M sales, $5.23M profit)** follow as key contributors.
+## **Key Insights**
+-	Florida leads in both **total sales ($684.63M) and profit ($27.38M)**, making it the strongest market.
 
-3. South Dakota and Kentucky show strong profitability despite lower sales.
+-	California **($198.94M sales, $9.91M profit)** and Delaware **($180.89M sales, $5.23M profit)** follow as key contributors.
 
-4. Georgia **(-$0.04M)** and Iowa **(-$0.16M)** are unprofitable, signaling operational challenges.
+-	South Dakota and Kentucky show strong profitability despite lower sales.
 
-### **Strategic Recommendations**
-1.	 Invest in Florida, California, and Delaware to maximize high returns.
+-	Georgia **(-$0.04M)** and Iowa **(-$0.16M)** are unprofitable, signaling operational challenges.
 
-2.	Optimize costs and pricing in Georgia & Iowa to reverse losses.
+## **Strategic Recommendations**
+-	Invest in Florida, California, and Delaware to maximize high returns.
 
-3.	 Expand operations in high-profit states like South Dakota & Kentucky.
+-	Optimize costs and pricing in Georgia & Iowa to reverse losses.
 
-4.	 Monitor low-sales but profitable states (Texas, Maryland, Ohio) for sustainable growth.
+-	Expand operations in high-profit states like South Dakota & Kentucky.
 
-5.	 Use data-driven strategies for regional expansion and efficiency.
+-	Monitor low-sales but profitable states (Texas, Maryland, Ohio) for sustainable growth.
 
-**Focus on profitable regions, optimize struggling markets, and scale high-potential areas for long-term success.** 
+-	Use data-driven strategies for regional expansion and efficiency.
+
+Focus on profitable regions, optimize struggling markets, and scale high-potential areas for long-term success. 
+
+ ---
  
+<br>
 
 # **Exploring the Interactive Dashboard**
 
 ![4 1  Dashboard - Sales 1](https://github.com/user-attachments/assets/8248be0a-6310-44d9-8372-c2cdb51e7a9e)
 
+<br>
+
 ## **Why This Interactive Dashboard Matters**
 Understanding sales and profitability trends is essential for businesses that want to stay ahead of the competition. This project focuses on building an intuitive and automated Sales & Profit Dashboard that enables:
 
-- **Performance Tracking** – Gain precise insights into year-over-year sales and profit trends.
+-  **Performance Tracking** – Gain precise insights into year-over-year sales and profit trends.
 
-- **Customer Insights** – Uncover key customer behaviors, preferences, and segments to boost engagement.
+-  **Customer Insights** – Uncover key customer behaviors, preferences, and segments to boost engagement.
 
-- **Data-Driven Strategies** – Equip management and marketing teams with actionable insights to optimize sales, improve customer satisfaction, and maximize profitability.
+-  **Data-Driven Strategies** – Equip management and marketing teams with actionable insights to optimize sales, improve customer satisfaction, and maximize profitability.
 
 By leveraging interactive dashboards, stakeholders—including sales managers, executives, and marketing teams—can analyze critical metrics, identify trends, and make faster, smarter decisions that drive business success.
 
-## **Dashboard File**
-The final dashboard is available in [Dashboard.xlsx](https://github.com/olumidebalogun1/Excel-Project---Sales-and-Profitability-Analysis-with-Interactive-Dashboard/blob/main/5.%20Analysis%20and%20Dashboard/2.%20Dashboard.xlsx)
+<br><br>
 
+### **Dashboard File**
+### 🔗 See the Strategic Dashboard in Action: [Dashboard.xlsx](https://github.com/olumidebalogun1/Excel-Project---Sales-and-Profitability-Analysis-with-Interactive-Dashboard/blob/main/5.%20Analysis%20and%20Dashboard/2.%20Dashboard.xlsx)
+
+<br><br>
 
 # **Sales & Profit Dashboards | Key Requirements**
+
+<br>
 
 ## **Dashboard Purpose**
 The Sales & Profit Dashboards are designed to provide a comprehensive overview of key sales and profitability metrics. The goal is to enable data-driven decision-making by helping stakeholders track trends, measure performance, and uncover actionable insights to drive growth.
 
-## **Key Features & Insights**
+### **Key Features & Insights**
 **1. KPI Overview**
 - Display a summary of total sales, profit, quantity sold, and profit margin.
 
@@ -439,6 +607,8 @@ The Sales & Profit Dashboards are designed to provide a comprehensive overview o
 
 **5. Geographical Performance**
 - Compare sales and profit trends across different states, helping businesses identify high-potential markets.
+
+<br>
 
 ## **Design & Interactivity Requirements**
 
@@ -462,18 +632,31 @@ Users will have the ability to filter and analyze data based on:
 
 By integrating these powerful features, this project **bridges the gap between raw data and strategic action**, equipping stakeholders with the insights needed to drive **measurable business impact**. 
 
+<br><br>
+
 # **Sales & Profit Dashboards**
+<br>
 
 ## **Sales Dashboard**
+<br>
+
 ![4 2  Dashboard - Sales 2 (Using Scroll bars)](https://github.com/user-attachments/assets/b23b3541-47a4-49f3-b855-5eadfedfabdb)
+
+<br>
 
 The **Sales Dashboard** provides a clear overview of **sales trends, customer behaviors, and product performance**, allowing decision-makers to **track revenue growth, identify top-performing products, and optimize sales strategies.**
 
 ## **Profit Dashboard & Seamless Navigation**
+<br>
+
 ![4 3  Dashboard - Profit ](https://github.com/user-attachments/assets/49576f10-96de-48ee-ba7e-38b3900233e3)
+
+<br>
 
 The **Profit Dashboard** focuses on **profitability insights, cost analysis, and margin optimization**, helping businesses **maximize revenue while identifying areas for cost efficiency.**
 With **seamless navigation**, users can effortlessly switch between **sales and profit dashboards**, ensuring a **comprehensive analysis** of business performance.
+
+<br>
 
 ## **The Power of Real-Time Insights**
 This **Excel-powered Supply Chain Dashboard** goes beyond static reports, enabling businesses to:
@@ -486,8 +669,9 @@ This **Excel-powered Supply Chain Dashboard** goes beyond static reports, enabli
 
 By transforming data into a **strategic asset**, this project empowers businesses to gain a **competitive edge** and drive **sustainable growth**.
 
+<br><br>
 
-# **Key Expected Outcomes and Estimated Business Impact**
+## **Key Expected Outcomes and Estimated Business Impact**
 
 **1.  Profitability Boost**: **+6% to +12%** through margin optimization and cost reductions.
 
@@ -503,22 +687,56 @@ By transforming data into a **strategic asset**, this project empowers businesse
 
 By executing these **data-driven strategies**, the company can drive **higher profitability, sustainable growth, and a competitive advantage in the market.**
 
-# **Conclusion**
+<br>
+
+## What I Learned
+#### 1. Data Without Strategy Is Just Noise
+-  I learned that uncovering patterns in massive sales data is just the first step, turning those patterns into actionable, profit-driven strategy is the real game-changer.
+
+#### 2. Not All High Sales Are Good Sales
+-  A 4% profit margin in a half-billion-dollar revenue business taught me the importance of looking beyond revenue, **profit efficiency, customer quality, and cost control matter more than volume alone**.
+
+#### 3. The Power of Interactivity
+-  Building dynamic dashboards wasn’t just a technical task—it was about empowering decision-makers to see the story behind the numbers and make smarter, faster, and more impactful choices.
+
+#### 4. Every Dimension Tells a Different Story
+-  Analyzing performance by product type, customer segment, and geography revealed how **multi-faceted business decisions** must be—and how critical it is to synthesize insights across dimensions.
+
+<br>
+
+## Challenges & Growth
+**1. Challenge**: Ensuring Data Quality Across Multiple Sources
+
+•	**Growth**: I sharpened my Power Query and ETL skills by cleaning, merging, and modeling diverse datasets into a single, trustworthy analytical foundation.
+
+**2. Challenge**: Finding Meaning in Seasonal Noise
+
+•	**Growth**: I developed stronger temporal analysis skills, identifying actionable seasonality patterns while filtering out misleading fluctuations.
+
+**3. Challenge**: Turning Complex Analysis into Simple Strategy
+
+•	**Growth**: I leveled up my **data storytelling**, breaking down technical insights into plain-English recommendations that executives could act on immediately.
+
+**4. Challenge**: Managing Revenue Dependency Risk
+
+•	**Growth**: I deepened my understanding of **customer concentration risks** and the value of diversification in business strategy.
+
+<br>
+
+## **Conclusion**
 This project demonstrates the transformative impact of combining Exploratory Data Analysis with a well-crafted, interactive dashboard. By revealing hidden patterns, spotlighting top-performing regions, products, and customer segments, and equally important, identifying areas that need attention, the business is empowered to make smarter, faster, and more targeted decisions. When insights are actionable, not just informative, growth becomes intentional and sustainable.
 
 With the right data tools in place, organizations don’t just respond to change, they drive it.
 
-# **Final Thoughts**
-In today’s fast-moving business landscape, data alone isn’t enough, it’s the insights we extract and the actions we take that truly create impact. As a Business Analyst, my passion lies in bridging the gap between raw numbers and meaningful strategy. This project is a clear example of how we can turn data into decisions, and decisions into measurable success.
+### Final Thought:
+ This wasn't just an analysis—it was a business transformation roadmap powered by data. And I'm proud to have driven it.
 
-Let’s stop drowning in data and start thriving with insight.
+<br>
 
 **Feel free to explore, share, and connect!** Together, we can harness the power of data to drive meaningful results.
 
-# **Connect with Me**
+## Connect with Me
 - **📞 +234-8065060691**
 - **📧 Email: krisbalo11@gmail.com**
 - **🔗 LinkedIn**: [Connect with me on LinkedIn](https://www.linkedin.com/in/olumide-balogun1/)
 - **🔗 Medium**: [Explore my Data Storytelling articles](https://medium.com/@Olumide-Balogun)
-
-
