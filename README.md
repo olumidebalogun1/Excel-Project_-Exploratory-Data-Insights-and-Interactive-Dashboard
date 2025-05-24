@@ -6,7 +6,7 @@
 <br>
 
 ## Project Background
-This project isn’t just an Excel workbook, it’s a **strategic intelligence engine** built to turn raw sales data into business gold. Powered by **Exploratory Data Analysis (EDA)** and enhanced with a **2-in-1 automated, interactive dashboard, it transforms complex supply chain datasets into crystal-clear, actionable insights for the leadership team of **Chris & Danielle Supply Chain**.
+This project isn’t just an Excel workbook, it’s a **strategic intelligence engine** built to turn raw sales data into business gold. Powered by **Exploratory Data Analysis (EDA)** and enhanced with a **2-in-1** automated and interactive dashboard. It transforms complex supply chain datasets into crystal-clear, actionable insights for the leadership team of **Chris & Danielle Supply Chain**.
 
 At the heart of the project lies a deep-dive into sales trends, profitability performance, customer behavior, and regional dynamics from 2021 to 2024. But the real power is in how the findings are packaged, **visually compelling, real-time dashboards** that put the most important KPIs at stakeholders’ fingertips.
 
@@ -139,7 +139,7 @@ The following Excel skills were utilized for the analysis:
 
 # Executive Summary: Exploratory Data Analysis of Sales Performance (2021–2024)
 ## Overview
-This analysis leverages a multi-dimensional supply chain dataset (2021–2024) to uncover actionable insights across sales performance, customer behavior, product profitability, and regional dynamics. The objective is to turn complex data into a clear decision-making compass—enhancing revenue growth, improving operational efficiency, and increasing profitability.
+This analysis leverages a multi-dimensional supply chain dataset (2021–2024) to uncover actionable insights across sales performance, customer behavior, product profitability, and regional dynamics. The objective is to turn complex data into a clear decision-making compass, enhancing revenue growth, improving operational efficiency, and increasing profitability.
 
 <br>
 
@@ -165,7 +165,7 @@ This analysis leverages a multi-dimensional supply chain dataset (2021–2024) t
 
 -	**Georgia and Iowa** incur losses.
 
--	**Smaller markets like South Dakota** offer high profit margins with modest sales—ideal for expansion.
+-	**Smaller markets like South Dakota** offer high profit margins with modest sales, ideal for expansion.
 
 <br>
 
@@ -574,7 +574,7 @@ Understanding sales and profitability trends is essential for businesses that wa
 
 -  **Data-Driven Strategies** – Equip management and marketing teams with actionable insights to optimize sales, improve customer satisfaction, and maximize profitability.
 
-By leveraging interactive dashboards, stakeholders—including sales managers, executives, and marketing teams—can analyze critical metrics, identify trends, and make faster, smarter decisions that drive business success.
+By leveraging interactive dashboards, stakeholders, including sales managers, executives, and marketing teams—can analyze critical metrics, identify trends, and make faster, smarter decisions that drive business success.
 
 <br><br>
 
@@ -697,10 +697,10 @@ By executing these **data-driven strategies**, the company can drive **higher pr
 -  A 4% profit margin in a half-billion-dollar revenue business taught me the importance of looking beyond revenue, **profit efficiency, customer quality, and cost control matter more than volume alone**.
 
 #### 3. The Power of Interactivity
--  Building dynamic dashboards wasn’t just a technical task—it was about empowering decision-makers to see the story behind the numbers and make smarter, faster, and more impactful choices.
+-  Building dynamic dashboards wasn’t just a technical task, it was about empowering decision-makers to see the story behind the numbers and make smarter, faster, and more impactful choices.
 
 #### 4. Every Dimension Tells a Different Story
--  Analyzing performance by product type, customer segment, and geography revealed how **multi-faceted business decisions** must be—and how critical it is to synthesize insights across dimensions.
+-  Analyzing performance by product type, customer segment, and geography revealed how **multi-faceted business decisions** must be, and how critical it is to synthesize insights across dimensions.
 
 <br>
 
@@ -729,7 +729,7 @@ This project demonstrates the transformative impact of combining Exploratory Dat
 With the right data tools in place, organizations don’t just respond to change, they drive it.
 
 ### Final Thought:
- This wasn't just an analysis—it was a business transformation roadmap powered by data. And I'm proud to have driven it.
+ This wasn't just an analysis, it was a business transformation roadmap powered by data. And I'm proud to have driven it.
 
 <br>
 
